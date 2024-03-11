@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vehicle Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Vehicle Shop</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Cars">Cars</a></li>
+            <li><a href="#Trucks">Trucks</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="Home">
+        <h2>Welcome to our Vehicle Shop!</h2>
+        <p>Explore our collection of cars and trucks.</p>
+    </section>
+
+    <section id="cars">
+        <h2>Cars for Sale</h2>
+        <div class="vehicle">
+            <img src="toyota.jpg" alt="Toyota Hilux">
+            <h3>Toyota Hilux</h3>
+            <p>Price: $35,000</p>
+            <button onclick="addToCart('Toyota Hilux', 35000)">Add to Cart</button>
+        </div>
+
+        <!-- Add more car listings as needed -->
+
+    </section>
+
+    <section id="trucks">
+        <h2>Trucks for Sale</h2>
+        <div class="vehicle">
+            <img src="truck.jpg" alt="Volvo Offroad">
+            <h3>Volvo Truck</h3>
+            <p>Price: $55,000</p>
+            <button onclick="addToCart('Volvo Offroad', 55000)">Add to Cart</button>
+        </div>
+
+        <!-- Add more truck listings as needed -->
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries and purchases, please contact us at <a href="mail.to.kevinbett1444@gmail.com">kevinbett1444@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vehicle Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
